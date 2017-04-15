@@ -10,11 +10,11 @@ The algorithm in its basic form takes as input the number of parameters and the 
 ipo = IPOAlgorithm.new 3,[3,5,5]
 puts ipo.output_table
 ```
-![alt tag](https://github.com/mihaisoldan/IPOAlgorithm/blob/master/examples/example1.jpg)
+![alt tag](https://github.com/mihaisoldan/IPOAlgorithm/examples/example1.jpg)
 
 ******
 
-By providing a .csv file with actual values for the parameters such as this (*input_file.csv*): (the table has been transposed for markdown syntax reasons) 
+By providing a .csv file with actual values for the parameters such as this (*input_file.csv*): (the table has been transposed for markdown syntax reasons)
 
 | Hardware              | OS                                       | Browser             |
 |-----------------------|------------------------------------------|---------------------|
@@ -59,7 +59,7 @@ It is also possible to provide a .csv file containing infeasible pairs such as t
 | Windows 7 Enterprise                     | Safari 5.1.6                             |
 
 ```ruby
-ipo = IPOAlgorithm.new 3, [3,5,5], "input_file.csv", "infeasible_pairs.csv" 
+ipo = IPOAlgorithm.new 3, [3,5,5], "input_file.csv", "infeasible_pairs.csv"
 puts ipo.output_table
 ```
 ![alt tag](https://github.com/mihaisoldan/IPOAlgorithm/blob/master/examples/example3.png)
