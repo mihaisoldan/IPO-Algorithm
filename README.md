@@ -10,7 +10,7 @@ The algorithm in its basic form takes as input the number of parameters and the 
 ipo = IPOAlgorithm.new 3,[3,5,5]
 puts ipo.output_table
 ```
-![alt tag](https://github.com/mihaisoldan/IPOAlgorithm/examples/example1.jpg)
+![alt tag](https://github.com/mihaisoldan/IPO-Algorithm/examples/example1.jpg)
 
 ******
 
